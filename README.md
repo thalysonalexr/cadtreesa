@@ -1,7 +1,7 @@
 # cadtreesa
 
 [![GitHub version](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa.svg)](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Software License](https://github.com/thalysonrodrigues/cadtreesa/blob/master/LICENSE)](LICENSE.md)
 
 <p style="text-align: center;">
  <img style="width: 500px;" title="Cadtreesa" src=https://github.com/thalysonrodrigues/cadtreesa/raw/master/docs/logo-pagina.png>
