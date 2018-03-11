@@ -1,0 +1,105 @@
+<?php $object = $_REQUEST["tree"]; ?>
+
+<h2>Informações da árvore</h2>
+
+<figure id="qrcode">
+	<?=\PHPQRCode\QRcode::png(currentUrl(), 'assets/images/tmp/tree.png', 'L', 10, 0);?>
+	<a href=<?=assets('/assets/images/tmp/tree.png')?>>
+	<img id="qrcode" src=<?=assets('/assets/images/tmp/tree.png')?> title="Código da árvore"></a>
+</figure>
+
+<table id="table-tree" class="table table-striped table-hover">
+	<tbody>
+		<tr>
+			<td class="record">Código</td> 
+			<td class="data"><?=$object->getId();?></td>
+		</tr>
+		<tr>
+			<td class="record">Nome comum</td>
+			<td class="data"><?=$object->getNomeComum();?></td>
+		</tr>
+		<tr>
+			<td class="record">Espécie</td>
+			<td class="data"><?=$object->getEspecie();?></td>
+		</tr>
+		<tr>
+			<td class="record">Familía</td>
+			<td class="data"><?=$object->getFamilia();?></td>
+		</tr>
+		<tr>
+			<td class="record">CAP (circ. altura do peito)</td>
+			<td class="data"><?=$object->getCap();?></td>
+		</tr>
+		<tr>
+			<td class="record">Altura total</td>
+			<td class="data"><?=$object->getAlturaTotal();?></td>
+		</tr>
+		<tr>
+			<td class="record">Classe da copa</td>
+			<td class="data"><?=$object->getClasseCopa();?></td>
+		</tr>
+		<tr>
+			<td class="record">Sanidade</td>
+			<td class="data"><?=$object->getSanidade();?></td>
+		</tr>
+		<tr>
+			<td class="record">Crescimento</td>
+			<td class="data"><?=$object->getCrescimento();?></td>
+		</tr>
+		<tr>
+			<td class="record">Posição sociológica</td>
+			<td class="data"><?=$object->getPosSociologica();?></td>
+		</tr>
+		<tr>
+			<td class="record">Utilização</td>
+			<td class="data"><?=$object->getUtilizacao();?></td>
+		</tr>
+		<tr>
+			<td class="record">Características</td>
+			<td class="data"><?=$object->getCaracteristicas();?></td>
+		</tr>
+		<tr>
+			<td class="record">Data de registro</td>
+			<td><?=$object->getDataRegistro();?></td>
+		</tr>
+		<tr>
+			<td class="record">Nome do mediador</td>
+			<td class="data"><?=$object->getUsuarioNome();?></td>
+		</tr>
+		<tr>
+			<td class="record">Descrição do mediador</td>
+			<td class="data"><?=$object->getUsuarioDescricao();?></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="align">
+	<figure id="tree">
+		<img id="tree" src="data:image/png;base64,<?=base64_encode($object->getImgArvore());?>" alt='Imagem da árvore' title='<?=$object->getNomeComum();?>'/>
+		<figcaption><?=$object->getNomeComum();?></figcaption>
+	</figure>
+</div>
+
+<h2>Localização</h2>
+
+<div id="map"></div>
+<script>
+	function initMap() {
+		var uluru = {
+			lat: <?=$object->getLatitude();?>,
+			lng: <?=$object->getLongitude();?>
+		};
+
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 17,
+			center: uluru
+		});
+
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		});
+	}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDUPg7fF3ODFEn6_ADF9W9_jXZDHCa2fU&callback=initMap"></script>
+<noscript>Para obter a localização, ative o JavaScript para essa página :)</noscript>

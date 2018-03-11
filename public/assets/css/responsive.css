@@ -1,0 +1,190 @@
+/* IMPRESSORAS */
+@media print{
+
+    .title h2{
+        font-size: 2.5em;
+        font-weight: 700;
+        color: red;
+    }
+    .title h3{
+        font-size: 1.5em;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 360px) {
+
+    section#tree h2{
+        font-size: 1.4em;
+        float: left;
+    }
+}
+
+
+@media screen and (min-width: 400px) {
+
+    section#title hgroup{
+        margin-top: 27%;
+    }
+}
+
+
+/* TABLETS */
+@media screen and (min-width: 480px) {
+
+    .logo{
+        width: 200px;
+        height: 50px;
+        float: left;
+        background: url('../images/logo-pagina.png') center center/200px no-repeat;
+        font-size: 0;
+    }
+
+    .btn-menu{
+        width: 56px;
+        height: 56px;
+        border-radius: 56px;
+        font-size: 1.2em;
+    }
+
+    section#title hgroup{
+        margin-top: 25%;
+    }
+
+    section#title h2{
+        font-size: 2.3em;
+        font-weight: 700;
+    }
+    section#title h3{ font-size: 1.7em; }
+
+    table#table-tree td{ font-size: 1.1em; }
+
+    form#contact input[type='submit']{ font-size: 1.2em; }
+}
+
+@media screen and (min-width: 560px) {
+
+    section#title hgroup{
+        margin-top: 22%;
+    }
+
+    form#contact input[type='text'],
+    form#contact input[type='email']{
+        padding: 2%;
+        margin-bottom: 1.5%;
+    }
+
+    form#contact textarea{
+        padding: 2%;
+    }
+
+    form#contact input[type='submit']{
+        padding: 2.5%;
+        width: 50%;
+    }
+
+    form#contact{
+        margin-top: 1.5%;
+    }
+
+    section#contact p{
+        margin-top: 2%;
+    }
+
+    section#contact i{
+        padding: 1%;
+    }
+}
+
+@media screen and (min-width: 660px) {
+
+    section#title hgroup{
+        margin-top: 20%;
+    }
+}
+
+
+/* TABLETS E DESKTOPS */
+@media screen and (min-width: 768px) {
+
+    header#myheader a,
+    header#myheader nav{
+        display: table-cell!important;
+        vertical-align: middle!important;
+    }
+
+    #myheader a.nav-link{
+        transition: transform 200ms ease;
+    }
+
+    #myheader a.nav-link:hover{
+        transform: scale(1.2,1.2);
+        color: rgb(8,86,42);
+    }
+
+    .container, section#info{ 
+        padding: 1% 3%; 
+    }
+
+    .logo{ 
+        margin: 0; 
+    }
+
+    section#title h2{
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    section#title h3{
+        font-size: 2em;
+    }
+
+    .btn-menu{
+        display: none;
+    }
+
+    .menu{
+        width: 100%;
+        float: right;
+    }
+
+    .menu li{
+        display: inline-block;
+    }
+
+    .menu li a{
+        font-size: 1em;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .menu ul{
+        margin: 0;
+        text-align: right;
+    }
+
+    section#title hgroup{
+        margin-top: 15%;
+    }
+
+    table#table-tree td{
+        font-size: 1.2em;
+    }
+
+    form#contact input[type='text'],
+    form#contact input[type='email']{
+        margin-bottom: 1.5%;
+    }
+
+    form#contact input[type='submit']{
+        padding: 1.5%;
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    section#title hgroup{
+        margin-top: 10%;
+    }
+}
