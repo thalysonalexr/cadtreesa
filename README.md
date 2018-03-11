@@ -1,9 +1,9 @@
 # cadtreesa
 
 [![GitHub version](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa.svg)](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)]
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-<div style="text-align: center"><img title="Cadtreesa" src=https://github.com/thalysonrodrigues/cadtreesa/raw/master/docs/logo-pagina.png></div>
+<div style="text-align: center;"><img style="width: 500px;" title="Cadtreesa" src=https://github.com/thalysonrodrigues/cadtreesa/raw/master/docs/logo-pagina.png></div>
 
 🐘 Cadtreesa project website ☕
 
@@ -37,39 +37,39 @@ $ php -S localhost:8888 -t public
 This project uses several front-end and back-end web development technologies. The project uses composer for management of PHP dependencies (look at [composer.json]()) and CDNJS for dependencies of libraries like bootstrap, jquery. Here are the technologies used in this:
 
 * Front-end
- * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
- * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
- * [Twitter Boostrap 3.3.7](//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css)
- * [Font awesome](//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
- * [JQuery 3.3.1](//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js)
- * [Google Maps APIs](https://developers.google.com/maps/?hl=pt-br)
+  * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+  * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  * [Twitter Boostrap 3.3.7](//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css)
+  * [Font awesome](//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
+  * [JQuery 3.3.1](//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js)
+  * [Google Maps APIs](https://developers.google.com/maps/?hl=pt-br)
 
 * Back-end
- * [PHP 7.1.9](http://php.net/releases/7_1_9.php)
- * [MySQL 5.7.19](https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-19.html)
+  * [PHP 7.1.9](http://php.net/releases/7_1_9.php)
+  * [MySQL 5.7.19](https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-19.html)
 
 ### Composer
 
 project dependencies
 
-`` bash
+``` bash
 $ composer update
-``
+```
 
-`` bash
+``` bash
 ## sending emails with smtp
 $ composer require phpmailer/phpmailer
-``
+```
 
-`` bash
+``` bash
 ## project routes
 $ composer require klein/klein
-``
+```
 
-`` bash
+``` bash
 ## QR Code of the current tree
 $ composer require aferrandini/phpqrcode
-``
+```
 
 ## Credits
 
