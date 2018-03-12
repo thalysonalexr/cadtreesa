@@ -37,7 +37,7 @@ $ php -S localhost:8888 -t public
 
 ## Dependencies
 
-This project uses several front-end and back-end web development technologies. The project uses composer for management of PHP dependencies (look at [composer.json](https://github.com/thalysonrodrigues/cadtreesa/blob/master/composer.json) and CDNJS for dependencies of libraries like bootstrap, jquery. Here are the technologies used in this:
+This project uses several front-end and back-end web development technologies. The project uses composer for management of PHP dependencies (look at [composer.json](https://github.com/thalysonrodrigues/cadtreesa/blob/master/composer.json)) and CDNJS for dependencies of libraries like bootstrap, jquery. Here are the technologies used in this:
 
 * Front-end
   * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
