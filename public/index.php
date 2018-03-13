@@ -44,10 +44,10 @@ require "../bootstrap.php";
 	    </header>
 
 	    <section id="title" class="container banner">
-	        <hgroup class="title">
+	        <header class="title">
 	            <h2>Cadastro de Árvores de Sistemas & Agrícolas</h2>
 	            <h3>Escaneie o código QR das árvores e nos visite</h3>
-	        </hgroup>
+	        </header>
 	    </section>
 
 	    <section id="tree" class="container">

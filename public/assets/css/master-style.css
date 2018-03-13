@@ -141,7 +141,7 @@ header#myheader{
 
 section#title{border-radius: 0;}
 
-section#title hgroup{
+section#title header{
     margin-top: 30%;
     padding: 0 2%;
 }

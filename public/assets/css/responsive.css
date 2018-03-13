@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 400px) {
 
-    section#title hgroup{
+    section#title header{
         margin-top: 27%;
     }
 }
@@ -47,7 +47,7 @@
         font-size: 1.2em;
     }
 
-    section#title hgroup{
+    section#title header{
         margin-top: 25%;
     }
 
@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 560px) {
 
-    section#title hgroup{
+    section#title header{
         margin-top: 22%;
     }
 
@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 660px) {
 
-    section#title hgroup{
+    section#title header{
         margin-top: 20%;
     }
 }
@@ -163,7 +163,7 @@
         text-align: right;
     }
 
-    section#title hgroup{
+    section#title header{
         margin-top: 15%;
     }
 
@@ -184,7 +184,7 @@
 
 @media screen and (min-width: 1024px) {
 
-    section#title hgroup{
+    section#title header{
         margin-top: 10%;
     }
 }
