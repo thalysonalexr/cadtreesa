@@ -41,6 +41,7 @@ class Database
     private static function connect() {
         $pdo = new \PDO(self::$database . ":host=" . self::$hostname . ";port=" . self::$port . ";dbname=" . self::$dbName . ";charset=" . self::$charset, self::$username, self::$password);
         $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
+        $pdo->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_OBJ);
         return $pdo;
     }
 
@@ -57,7 +58,7 @@ class Database
         $statement->execute($params);
 
         if (explode(' ', $query)[0] == 'SELECT') {
-            $data = $statement->fetchAll(\PDO::FETCH_ASSOC);
+            $data = $statement->fetchAll();
             return $data;
         }
     }

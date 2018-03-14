@@ -35,24 +35,24 @@ class Tree extends Database
 
         foreach ($query as $value) {
             $object = new \app\Models\bean\Tree();
-            $object->setId(              $value["id"]);
-            $object->setNomeComum(       $value["nome_comum"]);
-            $object->setEspecie(         $value["especie"]);
-            $object->setFamilia(         $value["familia"]);
-            $object->setCap(             $value["cap"]);
-            $object->setAlturaTotal(     $value["altura_total"]);
-            $object->setClasseCopa(      $value["classe_copa"]);
-            $object->setSanidade(        $value["sanidade"]);
-            $object->setCrescimento(     $value["crescimento"]);
-            $object->setPosSociologica(  $value["pos_sociologica"]);
-            $object->setUtilizacao(      $value["utilizacao"]);
-            $object->setCaracteristicas( $value["caracteristicas"]);
-            $object->setDataRegistro(    $value["data_registro"]);
-            $object->setUsuarioNome(     $value["usuario_nome"]);
-            $object->setUsuarioDescricao($value["usuario_descricao"]);
-            $object->setImgArvore(       $value["img_arvore"]);
-            $object->setLatitude(        $value["latitude"]);
-            $object->setLongitude(       $value["longitude"]);
+            $object->setId(              $value->id);
+            $object->setNomeComum(       $value->nome_comum);
+            $object->setEspecie(         $value->especie);
+            $object->setFamilia(         $value->familia);
+            $object->setCap(             $value->cap);
+            $object->setAlturaTotal(     $value->altura_total);
+            $object->setClasseCopa(      $value->classe_copa);
+            $object->setSanidade(        $value->sanidade);
+            $object->setCrescimento(     $value->crescimento);
+            $object->setPosSociologica(  $value->pos_sociologica);
+            $object->setUtilizacao(      $value->utilizacao);
+            $object->setCaracteristicas( $value->caracteristicas);
+            $object->setDataRegistro(    $value->data_registro);
+            $object->setUsuarioNome(     $value->usuario_nome);
+            $object->setUsuarioDescricao($value->usuario_descricao);
+            $object->setImgArvore(       $value->img_arvore);
+            $object->setLatitude(        $value->latitude);
+            $object->setLongitude(       $value->longitude);
             $tree[] = $object;
         }
         return $tree[0];
