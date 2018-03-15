@@ -15,21 +15,21 @@ namespace app\Models\bean;
 class Tree implements \JsonSerializable
 {
     private $id;
-    private $nome_comum;
+    private $nomeComum;
     private $especie;
     private $familia;
     private $cap;
-    private $altura_total;
-    private $classe_copa;
+    private $alturaTotal;
+    private $classeCopa;
     private $sanidade;
     private $crescimento;
-    private $pos_sociologica;
+    private $posSociologica;
     private $utilizacao;
     private $caracteristicas;
-    private $data_registro;
-    private $usuario_nome;
-    private $usuario_descricao;
-    private $img_arvore;
+    private $dataRegistro;
+    private $usuarioNome;
+    private $usuarioDescricao;
+    private $imgArvore;
     private $latitude;
     private $longitude;
 
@@ -43,11 +43,11 @@ class Tree implements \JsonSerializable
     }
 
     public function getNomeComum() {
-        return $this->nome_comum;
+        return $this->nomeComum;
     }
 
     public function setNomeComum($value) {
-        $this->nome_comum = $value;
+        $this->nomeComum = $value;
     }
 
     public function getEspecie() {
@@ -75,19 +75,19 @@ class Tree implements \JsonSerializable
     }
 
     public function getAlturaTotal() {
-        return $this->altura_total;
+        return $this->alturaTotal;
     }
 
     public function setAlturaTotal($value) {
-        $this->altura_total = $value;
+        $this->alturaTotal = $value;
     }
 
     public function getClasseCopa() {
-        return $this->classe_copa;
+        return $this->classeCopa;
     }
 
     public function setClasseCopa($value) {
-        $this->classe_copa = $value;
+        $this->classeCopa = $value;
     }
 
     public function getSanidade() {
@@ -107,11 +107,11 @@ class Tree implements \JsonSerializable
     }
 
     public function getPosSociologica() {
-        return $this->pos_sociologica;
+        return $this->posSociologica;
     }
 
     public function setPosSociologica($value) {
-        $this->pos_sociologica = $value;
+        $this->posSociologica = $value;
     }
 
     public function getUtilizacao() {
@@ -131,35 +131,35 @@ class Tree implements \JsonSerializable
     }
 
     public function getDataRegistro() {
-        return $this->data_registro;
+        return $this->dataRegistro;
     }
 
     public function setDataRegistro($value) {
-        $this->data_registro = $value;
+        $this->dataRegistro = $value;
     }
 
     public function getUsuarioNome() {
-        return $this->usuario_nome;
+        return $this->usuarioNome;
     }
 
     public function setUsuarioNome($value) {
-        $this->usuario_nome = $value;
+        $this->usuarioNome = $value;
     }
 
     public function getUsuarioDescricao() {
-        return $this->usuario_descricao;
+        return $this->usuarioDescricao;
     }
 
     public function setUsuarioDescricao($value) {
-        $this->usuario_descricao = $value;
+        $this->usuarioDescricao = $value;
     }
 
     public function getImgArvore() {
-        return $this->img_arvore;
+        return $this->imgArvore;
     }
 
     public function setImgArvore($value) {
-        $this->img_arvore = $value;
+        $this->imgArvore = $value;
     }
 
     public function getLatitude() {
@@ -187,21 +187,21 @@ class Tree implements \JsonSerializable
         return
         [
             'id'                => $this->getId(),
-            'nome_comum'        => $this->getNomeComum(),
+            'nomeComum'        => $this->getNomeComum(),
             'especie'           => $this->getEspecie(),
             'familia'           => $this->getFamilia(),
             'cap'               => $this->getCap(),
-            'altura_total'      => $this->getAlturaTotal(),
-            'classe_copa'       => $this->getClasseCopa(),
+            'alturaTotal'      => $this->getAlturaTotal(),
+            'classeCopa'       => $this->getClasseCopa(),
             'sanidade'          => $this->getSanidade(),
             'crescimento'       => $this->getCrescimento(),
-            'pos_sociologica'   => $this->getPosSociologica(),
+            'posSociologica'   => $this->getPosSociologica(),
             'utilizacao'        => $this->getUtilizacao(),
             'localizacao'       => $this->getLocalizacao(),
             'caracteristicas'   => $this->getCaracteristicas(),
-            'data_registro'     => $this->getDataRegistro(),
-            'usuario_nome'      => $this->getUsuarioNome(),
-            'usuario_descricao' => $this->getUsuarioDescricao()
+            'dataRegistro'     => $this->getDataRegistro(),
+            'usuarioNome'      => $this->getUsuarioNome(),
+            'usuarioDescricao' => $this->getUsuarioDescricao()
         ];
     }
 }

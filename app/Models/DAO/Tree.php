@@ -17,7 +17,7 @@ use app\classes\Database;
 
 class Tree extends Database
 {
-	/**
+    /**
      * Create a new object of class Tree
      *
      * @param string $id identifier of the tree, its primary key
