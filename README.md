@@ -1,7 +1,7 @@
 # cadtreesa
 
-[![Release version](https://img.shields.io/github/v/release/thalysonalexr/cadtreesa?label=version&style=flat-square)
-[![License](https://img.shields.io/github/license/thalysonalexr/cadtreesa?color=blue&style=flat-square)
+[![Release version](https://img.shields.io/github/v/release/thalysonalexr/cadtreesa?label=version&style=flat-square)](https://img.shields.io/github/v/release/thalysonalexr/cadtreesa?label=version&style=flat-square)
+[![License](https://img.shields.io/github/license/thalysonalexr/cadtreesa?color=blue&style=flat-square)](https://img.shields.io/github/license/thalysonalexr/cadtreesa?color=blue&style=flat-square)
 
 
 <p style="text-align: center;">
