@@ -1,11 +1,11 @@
 # cadtreesa
 
-[![GitHub version](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa.svg)](https://badge.fury.io/gh/thalysonrodrigues%2Fcadtreesa)
-[![Software License](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/thalysonrodrigues/cadtreesa/blob/master/LICENSE)
+[![Release version](https://img.shields.io/github/v/release/thalysonalexr/cadtreesa?label=version&style=flat-square)
+[![License](https://img.shields.io/github/license/thalysonalexr/cadtreesa?color=blue&style=flat-square)
 
 
 <p style="text-align: center;">
- <img style="width: 500px;" title="Cadtreesa" src=https://github.com/thalysonrodrigues/cadtreesa/raw/master/docs/logo-pagina.png>
+ <img style="width: 500px;" title="Cadtreesa" src=https://github.com/thalysonalexr/cadtreesa/raw/master/docs/logo-pagina.png>
 </p>
 
 🐘 Cadtreesa project website ☕
@@ -33,11 +33,11 @@ $ php -S localhost:8888 -t public
 
 ## Running
 
-<div style="text-align: center"><img title="Cadtreesa running" src=https://github.com/thalysonrodrigues/cadtreesa/raw/master/docs/testing-mobile.gif></div>
+<div style="text-align: center"><img title="Cadtreesa running" src=https://github.com/thalysonalexr/cadtreesa/raw/master/docs/testing-mobile.gif></div>
 
 ## Dependencies
 
-This project uses several front-end and back-end web development technologies. The project uses composer for management of PHP dependencies (look at [composer.json](https://github.com/thalysonrodrigues/cadtreesa/blob/master/composer.json)) and CDNJS for dependencies of libraries like bootstrap, jquery. Here are the technologies used in this:
+This project uses several front-end and back-end web development technologies. The project uses composer for management of PHP dependencies (look at [composer.json](https://github.com/thalysonalexr/cadtreesa/blob/master/composer.json)) and CDNJS for dependencies of libraries like bootstrap, jquery. Here are the technologies used in this:
 
 * Front-end
   * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
@@ -76,7 +76,7 @@ $ composer require aferrandini/phpqrcode
 
 ## Credits
 
-- [Thalyson Alexandre Rodrigues de Sousa](https://github.com/thalysonrodrigues)
+- [Thalyson Alexandre Rodrigues de Sousa](https://github.com/thalysonalexr)
 
 ## License
 
